@@ -2,9 +2,16 @@ body{
     background-color: rgb(226, 231, 236);
 }
 
+.logo-block{
+    height: 100%;
+    background-color: rgb(39, 40, 41);
+    padding: 20px 40px;
+}
+
 .logo-main{
     width: 48px;
     height: 48px;
+    position: flex;
 }
 
 .floating-card{

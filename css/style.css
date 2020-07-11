@@ -12,6 +12,13 @@ h3{
     font-size: 20px;
 }
 
+.main-section{
+    min-height: 100vh;
+}
+
+.btn{
+    border-radius: 12px;
+}
 .logo-block{
     height: 100%;
     background-color: rgb(39, 40, 41);
@@ -68,6 +75,12 @@ h3{
 .divider{
     border-bottom: 2px solid #eeeeee;;
 }
+
+.bio-image{
+    border-radius: 50%;
+    width: 100%;
+}
+
 .footer-accent{
     background-color: #7ABF12;
     height: 4px;
@@ -76,9 +89,10 @@ h3{
 
 footer{
     background-color: rgb(32, 33, 34);
-    position: absolute;
+    position: sticky;
     bottom: 0;
     width: 100%;
+    z-index: 10;
 }
 
 footer p{

@@ -12,12 +12,16 @@ h3{
     font-size: 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .main-section{
     min-height: 100vh;
 }
 
 .btn{
-    border-radius: 12px;
+    border-radius: 20px;
 }
 .logo-block{
     height: 100%;
@@ -53,14 +57,34 @@ h3{
     position: absolute;
     width: 100%;
     text-align: center;
-    top: 75%;
+    top: 80%;
+    height: 60px;
     color: white;
     background-color: rgba(42, 42, 43, 0.75);
     z-index: 2;
 }
 
 .folio-item-ol h3{
-    margin-top: 2%;
+    margin-top: 3%;
+    color: white;
+}
+
+.github-link {
+    position: absolute;
+    font-size: 32px;
+    z-index: 5;
+    color: white;
+    bottom: 1%;
+    right: 8%;
+}
+.github-link i{
+    text-decoration: none;
+    color: white;
+}
+
+
+.folio-item-ol a {
+    text-decoration: none;
 }
 
 .folio-item img{
@@ -100,6 +124,8 @@ footer p{
     text-align: center;
     padding: 20px;
 }
+
+
 
 /* .title{
     border-bottom: 2px solid #eeeeee;
